@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name='viewport' content='width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no' />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/swiper.min.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/shouye.css">
+    <script src="./js/swiper.min.js"></script>
+    <script>
+        document.documentElement.style.fontSize = window.innerWidth / 750 * 100 + "px";
+    </script>
+</head>
+
+<body>
+    <div class="wrap">
+        <header class="header">
+            <img src="assets/首页-logo@2x.png" alt="">
+            <p>
+                <img src="assets/搜索icon@2x.png" alt="" class="img1">
+                <input type="text" placeholder="搜索项目或医院" class="ipt">
+            </p>
+            <span>
+                <b>分类</b>
+                <img src="assets/下拉icon@2x.png" alt="" class="img2">
+            </span>
+        </header>
+        <main class="main">
+            <div class="banner swiper-container">
+                <ul class="swiper-wrapper">
+                    <li class="swiper-slide"><img src="./assets/banner@2x.png" alt=""></li>
+                    <li class="swiper-slide"><img src="./assets/banner@2x.png" alt=""></li>
+                    <li class="swiper-slide"><img src="./assets/banner@2x.png" alt=""></li>
+                </ul>
+            </div>
+            <nav class="nav swiper-container">
+                <ul class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <li><img src="./assets/成单@2x.png" alt="">成单奖励</li>
+                        <li><img src="./assets/推荐@2x.png" alt="">推荐新人</li>
+                        <li><img src="./assets/收益@2x.png" alt="">收益滚利</li>
+                        <li><img src="./assets/年度@2x.png" alt="">阶梯奖励</li>
+                        <li><img src="./assets/客源@2x.png" alt="">异业拓客</li>
+                        <li><img src="./assets/集采@2x.png" alt="">集采返现</li>
+                        <li><img src="./assets/新品@2x.png" alt="">新品悬赏</li>
+                        <li><img src="./assets/期待@2x.png" alt="">敬请期待</li>
+                    </div>
+                    <div class="swiper-slide">
+                        <li><img src="./assets/成单@2x.png" alt="">成单奖励</li>
+                        <li><img src="./assets/推荐@2x.png" alt="">推荐新人</li>
+                        <li><img src="./assets/收益@2x.png" alt="">收益滚利</li>
+                        <li><img src="./assets/年度@2x.png" alt="">阶梯奖励</li>
+                        <li><img src="./assets/客源@2x.png" alt="">异业拓客</li>
+                        <li><img src="./assets/集采@2x.png" alt="">集采返现</li>
+                        <li><img src="./assets/新品@2x.png" alt="">新品悬赏</li>
+                        <li><img src="./assets/期待@2x.png" alt="">敬请期待</li>
+                    </div>
+                </ul>
+            </nav>
+            <div class="nav2">
+                <h2>金牌商家</h2>
+                <ol>
+                    <li>悦美国际</li>
+                    <li>美人魅力</li>
+                    <li>悦美国际</li>
+                    <li>美人魅力</li>
+                    <li>悦美国际</li>
+                    <li>美人魅力</li>
+                </ol>
+            </div>
+        </main>
+        <footer class="footer">
+            <div class="active"><img src="./assets/首页@2x.png" alt=""> <span>首页</span></div>
+            <div><img src="./assets/我的@2x.png" alt=""> <span>我的</span></div>
+        </footer>
+    </div>
+    <script>
+        new Swiper(".nav");
+        new Swiper(".banner");
+    </script>
+</body>
+
+</html>
